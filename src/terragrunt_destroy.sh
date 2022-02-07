@@ -27,7 +27,7 @@ function terragruntDestroy {
     destroyCommentWrapper="#### \`${tfBinary} destroy\` ${destroyCommentStatus}
 <details><summary>Show Output</summary>
 
-\`\`\`
+\`\`\`terraform
 ${destroyOutput}
 \`\`\`
 

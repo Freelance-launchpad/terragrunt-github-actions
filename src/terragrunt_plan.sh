@@ -47,7 +47,7 @@ function terragruntPlan {
     planCommentWrapper="#### \`${tfBinary} plan\` ${planCommentStatus}
 <details><summary>Show Output</summary>
 
-\`\`\`
+\`\`\`terraform
 ${planOutput}
 \`\`\`
 

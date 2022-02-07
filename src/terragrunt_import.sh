@@ -27,7 +27,7 @@ function terragruntImport {
     importCommentWrapper="#### \`${tfBinary} import\` ${importCommentStatus}
 <details><summary>Show Output</summary>
 
-\`\`\`
+\`\`\`terraform
 ${importOutput}
 \`\`\`
 

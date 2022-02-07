@@ -23,7 +23,7 @@ function terragruntValidate {
   if [ "$GITHUB_EVENT_NAME" == "pull_request" ] && [ "${tfComment}" == "1" ]; then
     validateCommentWrapper="#### \`${tfBinary} validate\` Failed
 
-\`\`\`
+\`\`\`terraform
 ${validateOutput}
 \`\`\`
 
